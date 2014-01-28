@@ -4,4 +4,4 @@
 # authors: Benjamin Kampmann
 
 register_asset("javascripts/pm_button.js", :client_side)
-register_asset("javascripts/discourse/templates/navigation/default.js.handlebars", :client_side)
+register_asset("discourse/templates/navigation/default.js.handlebars", :client_side)
