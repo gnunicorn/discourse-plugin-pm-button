@@ -1,7 +1,7 @@
-# name: reading time
-# about: a little UI extension showing the user how long it takes to read a given topic
+# name: pm button
+# about: add a "private message" button next to "Create new Topic" in the main menu bar for quick access
 # version: 0.1
 # authors: Benjamin Kampmann
 
-register_asset "reading_time.js", :client_side
-register_asset "reading_time.css", :client_side
+register_asset("javascripts/pm_button.js", :client_side)
+register_asset("discourse/templates/navigation/default.js.handlebars", :client_side)
